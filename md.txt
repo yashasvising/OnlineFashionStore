@@ -1,0 +1,129 @@
+// 1. Create first product
+db.products.insertOne({
+  title: "Men's Casual T-Shirt",
+  description: "Comfortable and stylish t-shirt for casual wear.",
+  image: "https://nobero.com/cdn/shop/files/og.jpg?v=1722234051",
+  price: 19.99,
+  inStock: true,
+  categories: ["T-Shirts", "Casual", "men"],  // Added "men" category
+  size: ["S", "M", "L", "XL"],
+  color: ["Red", "Blue", "Black"],
+  gender: "men"  // Gender set to lowercase "men"
+});
+
+// 2. Create second product
+db.products.insertOne({
+  title: "Leather Jacket",
+  description: "High-quality leather jacket for a bold look.",
+  image: "https://images-cdn.ubuy.co.in/653e0fce99eea545187d36f1-skado-mens-leather-jacket-real-leather.jpg",
+  price: 129.99,
+  inStock: true,
+  categories: ["Jackets", "Outerwear", "men"],  // Added "men" category
+  size: ["M", "L", "XL"],
+  color: ["Black", "Brown"],
+  gender: "men"  // Gender set to lowercase "men"
+});
+
+// 3. Create third product
+db.products.insertOne({
+  title: "Running Shoes",
+  description: "Perfect for your daily runs, lightweight and durable.",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVe25YWagB65FUVynDXiaSuRelcglK9vcbPA&s",
+  price: 59.99,
+  inStock: true,
+  categories: ["Shoes", "Sportswear", "men"],  // Added "men" category
+  size: ["7", "8", "9", "10", "11"],
+  color: ["Blue", "White"],
+  gender: "men"  // Gender set to lowercase "men"
+});
+
+// 4. Create fourth product
+db.products.insertOne({
+  title: "Formal Shirt",
+  description: "Classic white shirt, perfect for business or formal events.",
+  image: "https://5.imimg.com/data5/SELLER/Default/2023/12/368338078/TT/WR/RB/32968154/men-formal-shirt.webp",
+  price: 39.99,
+  inStock: true,
+  categories: ["Shirts", "Formal", "men"],  // Added "men" category
+  size: ["S", "M", "L"],
+  color: ["White"],
+  gender: "men"  // Gender set to lowercase "men"
+});
+
+// 5. Create fifth product
+db.products.insertOne({
+  title: "Denim Jeans",
+  description: "Stylish blue denim jeans for everyday wear.",
+  image: "https://frenchcrown.in/cdn/shop/files/J341_2.jpg?v=1710414840&width=1750",
+  price: 49.99,
+  inStock: true,
+  categories: ["Jeans", "Casual", "men"],  // Added "men" category
+  size: ["M", "L", "XL"],
+  color: ["Blue", "Black"],
+  gender: "men"  // Gender set to lowercase "men"
+});
+
+// 6. Create sixth product
+db.products.insertOne({
+  title: "Summer Dress",
+  description: "Lightweight and breezy dress for warm weather.",
+  image: "https://m.media-amazon.com/images/I/81Qg+OHbk5L._AC_UY1100_.jpg",
+  price: 34.99,
+  inStock: true,
+  categories: ["Dresses", "Summer", "women"],  // Added "women" category
+  size: ["S", "M", "L"],
+  color: ["Pink", "Yellow", "White"],
+  gender: "women"  // Gender set to lowercase "women"
+});
+
+// 7. Create seventh product
+db.products.insertOne({
+  title: "Sporty Backpack",
+  description: "Durable and spacious backpack for everyday use.",
+  image: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/29627032/2024/8/19/b29ac7c5-d4e7-484a-9c79-44e0bb8fdbf11724045137818-MIRAGGIO-Women-Embellished-Backpack-7581724045137286-2.jpg",
+  price: 29.99,
+  inStock: true,
+  categories: ["Accessories", "Bags", "women"],  // Added "women" category
+  size: ["One Size"],
+  color: ["Black", "Grey"],
+  gender: "women"  // Gender set to lowercase "women"
+});
+
+// 8. Create eighth product
+db.products.insertOne({
+  title: "Sneakers",
+  description: "Stylish sneakers designed for comfort and performance.",
+  image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/t/3/n/3-875-mlt-3-deals4you-multi-original-imagg27xn9hnxw6h.jpeg?q=90&crop=false",
+  price: 79.99,
+  inStock: true,
+  categories: ["Shoes", "Sportswear", "women"],  // Added "women" category
+  size: ["7", "8", "9", "10", "11"],
+  color: ["White", "Red"],
+  gender: "women"  // Gender set to lowercase "women"
+});
+
+// 9. Create ninth product
+db.products.insertOne({
+  title: "Classic Watch",
+  description: "Elegant and timeless watch for formal occasions.",
+  image: "https://www.carlington.in/cdn/shop/files/Carlington_elite_analog_ladies_watch_CT_2014_rosegold.jpg?v=1696691332&width=2400",
+  price: 199.99,
+  inStock: true,
+  categories: ["Accessories", "Watches", "women"],  // Added "women" category
+  size: ["One Size"],
+  color: ["Gold", "Silver"],
+  gender: "women"  // Gender set to lowercase "women"
+});
+
+// 10. Create tenth product
+db.products.insertOne({
+  title: "Yoga Pants",
+  description: "Comfortable and flexible pants for yoga and workouts.",
+  image: "hhttps://m.media-amazon.com/images/I/61kn0x3ACUL._SL1500_.jpg",
+  price: 34.99,
+  inStock: true,
+  categories: ["Activewear", "Sportswear", "women"],  // Added "women" category
+  size: ["S", "M", "L", "XL"],
+  color: ["Black", "Purple"],
+  gender: "women"  // Gender set to lowercase "women"
+});
